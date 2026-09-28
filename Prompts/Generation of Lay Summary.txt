@@ -1,0 +1,14 @@
+You are a legal expert skilled in simplifying complex legal summaries. Rewrite the following layman summary so it is easy for a high school student (11th–12th grade level) to understand.
+Your task is to:
+- Use simple vocabulary and short, clear sentences.
+- Preserve all original structure, including paragraph breaks and sections if present.
+- Keep each paragraph logically consistent and aligned with the original idea.
+- Clarify or explain legal terms using plain English, only when necessary.
+- Ensure the rewritten version is easy to read, with a Flesch-Kincaid Grade Level below 10.
+Do NOT:
+- Add FKGL scores
+- Add section headers unless already present
+- Use bullet points
+- Add introductions, summaries, or personal opinions
+Layman Summary: {Insert the layman summary here}
+Return only the rewritten version with the original structure preserved.
