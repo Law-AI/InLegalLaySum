@@ -34,20 +34,20 @@ It contains total **2100** samples.
 
 | File Name | Description |
 |---|---|
-| GPT_Generate_Summary | Generates simplified summary from the expert-written summary |
-| SFT | Supervised Fine Tuning | 
-| DPO_on_SFT | Direct Preference Optimization applied on the SFT model |
-| Inference | Generates the final summary | 
+| GPT_Generate_Summary.py | Generates simplified summary from the expert-written summary |
+| SFT.py | Supervised Fine Tuning | 
+| DPO_on_SFT.py | Direct Preference Optimization applied on the SFT model |
+| Inference.py | Generates the final summary | 
 
 ## Structure of Evaluation Folder
 
 | File Name | Description |
 |---|---|
-| Readability | Calculates readability scores - GFI, FKGL, FRE, DC, CLI |
-| Rouge | Calculates quality scores - ROUGE-1,2,L | 
-| Bert | Calculates the Bert score |
-| SARI | Calculates the simplification SARI score | 
-| LLM_As_Judge | Summary evaluation by an LLM performing as a Judge | 
+| Readability.py | Calculates readability scores - GFI, FKGL, FRE, DC, CLI |
+| Rouge.py | Calculates quality scores - ROUGE-1,2,L | 
+| Bert.py | Calculates the Bert score |
+| SARI.py | Calculates the simplification SARI score | 
+| LLM_As_Judge.py | Summary evaluation by an LLM performing as a Judge | 
 
 ## License
 
