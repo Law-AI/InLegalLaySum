@@ -39,6 +39,16 @@ It contains total **2100** samples.
 | DPO_on_SFT.py | Direct Preference Optimization applied on the SFT model |
 | Inference.py | Generates the final summary | 
 
+## Structure of Prompts Folder
+
+| File Name | Description |
+|---|---|
+| Generation of Lay Summary.txt | Prompt for generating simplified lay summary from expert-written summary |
+| Inference.txt | Prompt for inference | 
+| LLM_As_Judge.txt | Prompt for LLM evaluating as a Judge |
+| ZSI_Pipeline_Summarization.txt | Prompt for summarization in ZSI_Pipeline method | 
+| ZSI_Pipeline_Simplification.txt | Prompt for simplification in ZSI_Pipeline method | 
+
 ## Structure of Evaluation Folder
 
 | File Name | Description |
