@@ -39,6 +39,16 @@ It contains total **2100** samples.
 | DPO_on_SFT | Direct Preference Optimization applied on the SFT model |
 | Inference | Generates the final summary | 
 
+## Structure of Evaluation Folder
+
+| File Name | Description |
+|---|---|
+| Readability | Calculates readability scores - GFI, FKGL, FRE, DC, CLI |
+| Rouge | Calculates quality scores - ROUGE-1,2,L | 
+| Bert | Calculates the Bert score |
+| SARI | Calculates the simplification SARI score | 
+| LLM_As_Judge | Summary evaluation by an LLM performing as a Judge | 
+
 ## License
 
 The InLegalLaySum dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit CC BY-NC-SA 4.0.
