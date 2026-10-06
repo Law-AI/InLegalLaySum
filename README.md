@@ -30,6 +30,15 @@ It contains total **7470** samples.
 
 It contains total **2100** samples. 
 
+## Structure of Codes Folder
+
+| File Name | Description |
+|---|---|
+| GPT_Generate_Summary | Generates simplified summary from the expert-written summary |
+| SFT | Supervised Fine Tuning | 
+| DPO_on_SFT | Direct Preference Optimization applied on the SFT model |
+| Inference | Generates the final summary | 
+
 ## License
 
 The InLegalLaySum dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit CC BY-NC-SA 4.0.
