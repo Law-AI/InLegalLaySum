@@ -66,7 +66,25 @@ The InLegalLaySum dataset is licensed under the Creative Commons Attribution-Non
 ## Citation
 If you use this dataset, please cite the following paper:
 ```
-@inproceedings{
+@inproceedings{saha-etal-2026,
+    title = "InLegalLaySum: A Novel Benchmark for Lay Summarization of Indian Legal Documents",
+    author = "Saha, Trishita  and
+      Datta, Debtanu  and
+      Tiwari, Shubham  and
+      Kaushal, Mohit  and
+      Rathore, Priyank  and
+      Pandit, Mohammad Khalid  and
+      Goyal, Pawan  and
+      Ghosh, Saptarshi", 
+    booktitle = "Proceedings of the 5th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 15th International Joint Conference on Natural Language Processing",
+    month = nov,
+    year = "2026",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-main.77/",
+    abstract = "Legal documents are often lengthy and contain domain-specific terminology and complex legal reasoning, making them difficult for the general public to understand. This challenge is further
+amplified in the Indian context, where a large portion of the population lacks proficiency in complex English. Although automatic legal summarization has been studied, most existing approaches generate summaries intended
+for legal professionals and thus remain difficult for laypeople. To address this gap, we introduce InLegalLaySum, the first benchmark for lay summarization of Indian legal documents. InLegalLaySum comprises 9,570 judgements from the Supreme Court and several High Courts of India paired with expert-written summaries in English. We benchmark a wide range of generative models (ranging from 160M to 7B parameters) and perform comprehensive experiments with multiple training strategies, including supervised fine-tuning (SFT) and direct preference optimization (DPO). We observed that the hybrid SFT+DPO training achieved superior performance across readability metrics, which is further validated by domain experts."
 }
 ```
 
